@@ -11,6 +11,18 @@ Summary: Freezes a Flask application into a set of static files.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/frozen-flask-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/frozen-flask-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/frozen-flask-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/frozen-flask-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/frozen-flask-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/frozen-flask-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/frozen-flask/badges/version.svg)](https://anaconda.org/conda-forge/frozen-flask)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/frozen-flask/badges/downloads.svg)](https://anaconda.org/conda-forge/frozen-flask)
+
 Installing frozen-flask
 =======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `frozen-flask` available on your p
 ```
 conda search frozen-flask --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/frozen-flask-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/frozen-flask-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/frozen-flask-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/frozen-flask-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/frozen-flask-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/frozen-flask-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/frozen-flask/badges/version.svg)](https://anaconda.org/conda-forge/frozen-flask)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/frozen-flask/badges/downloads.svg)](https://anaconda.org/conda-forge/frozen-flask)
 
 
 Updating frozen-flask-feedstock
