@@ -1,8 +1,8 @@
 {%set name = "Frozen-Flask" %}
-{%set version = "0.13" %}
+{%set version = "0.14" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "ed5f92fd7581ea2b26381a08ed0001ca24986bc953bc29a01a7df1fd35782662" %}
+{%set hash_val = "a27dc387a026cbe1e2a30ed83f172f21ef8e689fc1d1a27da2209296a3fd0ab0" %}
 {%set build_num = "0" %}
 
 package:
