@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/frozen-flask-fe
 
 Home: https://github.com/Frozen-Flask/Frozen-Flask
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Summary: Freezes a Flask application into a set of static files.
 
