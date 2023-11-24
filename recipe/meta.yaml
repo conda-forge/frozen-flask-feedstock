@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/Frozen-Flask/Frozen-Flask
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   license_family: BSD
   summary: 'Freezes a Flask application into a set of static files.'
