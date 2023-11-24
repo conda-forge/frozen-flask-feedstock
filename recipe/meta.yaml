@@ -30,8 +30,6 @@ requirements:
 test:
   imports:
     - flask_frozen
-    - tests.test_app
-    - tests.test_app.admin
 
 about:
   home: https://github.com/Frozen-Flask/Frozen-Flask
