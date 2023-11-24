@@ -34,13 +34,13 @@ test:
     - flask_frozen.test_app.admin
 
 about:
-  home: https://github.com/SimonSapin/Frozen-Flask
+  home: https://github.com/Frozen-Flask/Frozen-Flask
   license: BSD 3-Clause
   license_file: LICENSE
   license_family: BSD
   summary: 'Freezes a Flask application into a set of static files.'
-  dev_url: https://github.com/SimonSapin/Frozen-Flask
-  doc_url: https://pythonhosted.org/Frozen-Flask/
+  dev_url: https://github.com/Frozen-Flask/Frozen-Flask
+  doc_url: https://frozen-flask.readthedocs.io/
 
 extra:
   recipe-maintainers:
