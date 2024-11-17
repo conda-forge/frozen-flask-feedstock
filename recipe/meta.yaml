@@ -1,8 +1,7 @@
 {% set name = "Frozen-Flask" %}
-{% set version = "0.15" %}
+{% set version = "1.0.2" %}
 {% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "83858d6ed8b9d3fa7fc9523e415e65fb86b99352798d7695f63cffbd59a56269" %}
+{% set hash = "53a7895b188b7d59eb8d6fcf3fce18e097d8b4a26b6bb665e176add1a1e03aaf" %}
 
 package:
   name: {{ name|lower }}
@@ -10,13 +9,13 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_').lower() }}-{{ version }}.{{ bundle }}
+  sha256: {{ hash }}
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
